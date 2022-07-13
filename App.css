@@ -1,0 +1,110 @@
+.App {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  width : 800px;
+  height : 600px;
+  border : none;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+  position: relative;  
+}
+.Loading{
+  position: absolute;
+  left: 48%;
+  top: 48%;
+}
+button{
+  display:block;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: auto;
+}
+h1,p,h3{
+  margin-top: 20px;
+  text-align: center;
+}
+a{
+  margin-left: 10px;
+}
+.tlo{
+  opacity: 0.2;
+  position: fixed;
+  width : 800px;
+  height : 600px;
+  z-index: -1;
+}
+.Ship{
+  display:block;
+  margin-left: auto;
+  padding-top: 5%;
+  margin-right: auto;
+  height: 250px;
+  width: auto;
+}
+.Icons{
+  position:absolute;
+  left:40%;
+  bottom: 30px;
+}
+.Icons>.Icon:not(:first-child){
+  margin-left: 30px;
+}
+.Icon{
+  font-size: large;
+}
+.Startowy{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+}
+.Navbar{
+  position: absolute;
+  left: 0;
+  top:10%;
+  height: auto;
+  width: auto;
+  background-color: rgb(158, 157, 157);
+  margin-left: 0;
+}
+li{
+  position: relative;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+li > div > div{
+  position: absolute;
+  display: none;
+  color: black;
+  text-decoration: none ;
+  list-style-type: none;
+
+}
+.NavIconD:hover .dropD, .NavIconR:hover .dropR{
+  font-size: 15px;
+  display: inline-block;
+  background-color: rgb(158, 157, 157);
+  width:max-content;
+  left: 34px;
+  padding-left:10px;
+  padding-right:10px;
+  height:48px;
+  top: -10px;
+}
+.Startowy:hover{
+  background-color: rgb(158, 157, 157);
+}
+.Icon:hover,.NavIconD:hover, .NavIconR:hover{
+  cursor:pointer;
+  color: grey;
+}
+
+button:hover{
+  cursor: pointer;
+}
